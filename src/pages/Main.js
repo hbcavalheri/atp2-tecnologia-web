@@ -5,7 +5,7 @@ const Main = ({ user }) => {
   return (
     <div>
       <h1>Bem-vindo, {user.nome} {user.sobrenome}</h1>
-      <p>Data de Nascimento: {user.dataNascimento}</p>
+      <p>Data de Nascimnto: {user.dataNascimento}</p>
     </div>
   );
 };
